@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/login/style.css">
+    <script src="/login/main.js"></script>
+</head>
+<body>
+    
+    <section class="form"><!-- creamos una seccion para divir el formulario del resto. -->
+        <h1>BIENVENIDO A JVL.srl</h1>
+    <form id="formulario">
+        <p>Ingresar usuario:</p>
+        <input class="controls" type="text" id="usuario"><!--creamos un id para comunicarse con js-->
+    <br>
+    <br>
+        <p>Ingresar contraseña:</p>
+        <input class="controls" type="password" id="contraseña"><!--creamos un id para comunicarse con js-->
+    <br>
+    <br>
+        <input class="boton" type="button" value="Ingresar" onclick="ingreso()"><!--creamos un class para comunicarse con js y en onclick llamamos a la funcion de js-->
+    </form>
+    </section>
+
+</body>
+</html>
